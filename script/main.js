@@ -128,38 +128,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Контактная форма
 const contactForm = document.querySelector('.contact-form');
 if (contactForm) {
