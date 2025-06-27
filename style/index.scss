@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-
-
-
-
 :root {
   --skill-bar-color: #7b7a7b;
   --primary-color: #403E43;
@@ -52,9 +48,11 @@
 html {
   scroll-behavior: smooth;
 }
+
 *{
   transition: background-color 0.3s ease, color 0.3s ease
 }
+
 body {
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
@@ -163,10 +161,6 @@ body {
   display: block;
 }
 
-
-
-
-
 .hero {
   min-height: 500px; 
   height: 100vh;
@@ -237,7 +231,6 @@ body {
 }
 
 
-
 // Обо мне
 .about {
   padding: 100px 0;
@@ -303,11 +296,6 @@ body {
 .skill-bar.in-view .skill-progress {
   width: var(--progress-width);
 }
-
-
-
-
-
 
 .portfolio {
   padding: 100px 0;
@@ -445,6 +433,7 @@ body {
     }
   }
 }
+
 
 // Услуги
 .services {
